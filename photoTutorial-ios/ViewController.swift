@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         print("ViewController - onProfileChangeBtnClicked() called")
         //카메라 라이브러리 세팅
         var config = YPImagePickerConfiguration()
-        config.screens = [.library, .video, .video]
+        config.screens = [.library, .photo, .video]
         
         //세팅을 넣는다.
         let picker = YPImagePicker(configuration: config)
